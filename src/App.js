@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
+import DogPics from "./DogPics";
+
 
 function App() {
-  useEffect(() => {
-    console.log("useEffect called");
-  });
+  return <div>
+<button>Dog pics</button>
+  <DogPics/>
 
-  console.log("Component rendering");
-
-  return <button>Click Me</button>;
+  </div>
 }
+  
+  
+  
 
 export default App;
